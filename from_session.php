@@ -7,10 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <from method="get"action="tampil_session.php">
-        <P>unsername <input name="username" type="text"></p>
-        <p>id <input name="id" type="number"></p>
+    <from action="session.php" method="post">
+        <div>
+            username : <input type="text"name="username"id="">
+
+</div>
+<div>
+    password <input type="password"name="password" id="">
 
         <button type="submit">prosses</nutton>
+</from>
 </body>
 </html>
